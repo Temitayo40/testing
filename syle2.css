@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:media only screen and (min-width: 480px)');
+
+.box-align {
+  margin: 20px 80px;
+}
+
+.box-align .words h1 {
+  font-size: 1.5rem;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.box-align .deal h1 {
+  font-size: 2rem;
+}
+
+.box-align .words h1:hover {
+  color: black;
+}
+
+.box-align .Template {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box-align .Template .first {
+  width: 270px;
+}
+
+.box-align .Template .first h2 {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+.box-align .Template .first h2:hover,
+p:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.box-align .deal h1:hover,
+p:hover {
+  color: black;
+}
+
+.box-align .deal p {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.box-align .Template .first p {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.box-align .index .funding {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-align .index .funding h1 {
+  font-size: 1.5rem;
+  color: red;
+}
+
+.box-align .index .funding h1:hover {
+  color: black;
+}
+
+.box-align .index .funding ul {
+  text-align: right;
+}
+
+.footer .foot .footer_nav li {
+  text-decoration: none;
+  display: inline;
+  font-size: 13px;
+  margin: 10px 10px;
+}
+
+.box-align .index .funding ul li {
+  display: inline;
+  margin: 0 10px;
+  color: red;
+  text-decoration: none;
+}
+
+.box-align .index .platforms {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box-align .index .platforms .everything {
+  display: block;
+  width: 270px;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.box-align .index .platforms .everything .core {
+  background-color: rgb(255, 72, 72);
+  height: 40px;
+  color: white;
+  padding: 10px 75px;
+}
+
+.box-align .index .platforms .everything .series {
+  background-color: rgb(255, 215, 215);
+  height: 50px;
+  color: black;
+  padding: 10px 75px;
+}
+
+.box-align .index .platforms .everything .ware {
+  background-color: rgb(255, 236, 236);
+  height: 40px;
+  color: black;
+  border-bottom: 1px solid rgb(255, 203, 203);
+  padding: 10px 45px;
+  font-size: 11px;
+}
+
+.box-align .index .platforms .everything .maker {
+  background-color: rgb(255, 236, 236);
+  height: 78px;
+  color: black;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 2px 5px;
+}
+
+.box-align .creative {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box-align .creative .scraping {
+  display: block;
+  width: 368px;
+}
+
+.box-align .creative .scraping .tech {
+  display: block;
+  margin-top: 50px;
+}
+
+.box-align .creative .scraping .tech h1 {
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.box-align .creative .scraping .tech h1:hover {
+  color: black;
+}
+
+.box-align .creative .scraping .latest img {
+  margin-left: 81px;
+}
+
+.box-align .creative .scraping .tech h1 img {
+  margin-bottom: 1px;
+}
+
+.box-align .creative .scraping .latest {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 236, 236);
+  width: 368px;
+  height: 100px;
+}
+
+.box-align .creative .scraping .latest .text_1 {
+  margin: 7px 10px 20px 10px;
+  font-size: 12px;
+  color: red;
+  width: 200px;
+}
+
+.box-align .creative .scraping .text_1 h3 {
+  font-weight: 200;
+}
+
+.box-align .latest-deal .pre-footer .bundle p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.box-align .creative .scraping .latest .text_1 p {
+  font-weight: 800;
+  font-size: 13px;
+  margin-top: 2px;
+  list-style: outside;
+}
+
+.box-align .creative .scraping .latest .text_1:hover {
+  text-decoration: underline;
+}
+
+.box-align .creative .scraping .paragraph {
+  background-color: #fff;
+  width: 368px;
+  height: 200px;
+}
+
+.box-align .creative .scraping .paragraph .input-text {
+  width: 350px;
+  height: 100px;
+  margin-left: 14px;
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.footer .foot .footer_nav ul li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.box-align .creative .scraping .paragraph .input-text ul li {
+  font-size: 13px;
+  color: rgb(129, 129, 129);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  margin-bottom: 12px;
+}
+
+.box-align .creative .scraping .paragraph .input-text ul li:hover {
+  color: black;
+}
+
+.box-align .deal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: right;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.box-align .latest-deal {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box-align .latest-deal .pre-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.box-align .latest-deal .pre-footer .bundle {
+  display: block;
+  width: 270px;
+}
+
+.box-align .latest-deal .pre-footer .bundle p:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  margin-top: 70px;
+  height: 230px;
+  margin-bottom: 1px;
+}
+
+.footer .foot {
+  background-color: rgb(27, 27, 27);
+  width: 100%;
+  height: 160px;
+}
+
+.footer .foot .sub_footer-1 {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 463px;
+}
+
+.footer .foot .sub_footer-1 .border-1 {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
+  margin: 45px 10px;
+  align-items: center;
+}
+
+.footer .foot .sub_footer-1 .border-1:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+.footer .foot .footer_nav {
+  color: rgb(143, 143, 143);
+  display: inline;
+}
+
+.footer .foot .footer_nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.footer .footer_nav-2 {
+  font-size: 11px;
+  color: rgb(102, 102, 102);
+  text-align: center;
+  margin-top: 40px;
+}
+

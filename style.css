@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:@mediascreen and (min-width: 480px)');
+
+:root {
+  --color-grey: #f5f5f5;
+  --color-grey-light: rgb(180, 180, 180);
+  --color-bg: #f9f9f9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  width: 100%;
+  font-family: sans-serif, "Roboto";
+}
+
+.menu_bar {
+  background-color: black;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+}
+
+.sub_menu ul {
+  margin-left: 15px;
+  line-height: 50px;
+}
+
+.menu_bar .nav_1 ul {
+  margin-left: 10px;
+}
+
+.sub_menu ul li {
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(170, 169, 169);
+  display: inline;
+  margin: 0 8px;
+}
+
+.menu_bar .navigation ul li {
+  list-style: none;
+  display: inline;
+  margin: 0 10px;
+  color: rgb(180, 180, 180);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.menu_bar .nav_1 ul li {
+  display: inline-flex;
+  font-size: 13px;
+  margin: 0 10px;
+}
+
+.menu_bar .nav_1 ul li a {
+  text-decoration: none;
+  color: rgb(180, 180, 180);
+}
+
+.menu_bar .nav_1 ul li .main,
+.menu_bar .nav_1 ul li a:hover {
+  color: #fff;
+}
+
+.menu-bar .fa {
+  margin-right: 8px;
+}
+
+.sub-nav {
+  display: none;
+}
+
+.menu_bar .nav_1 ul li:hover .sub-nav {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 29px;
+  margin-left: -15px;
+  height: 70px;
+  z-index: 2;
+}
+
+.menu_bar .nav_1 ul li:hover .sub-nav ul {
+  display: block;
+  color: rgb(180, 180, 180);
+}
+
+.sub_menu ul li:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.menu_bar .navigation ul li:hover {
+  color: #fff;
+}
+
+.menu_bar .nav_1 ul li:hover .sub-nav ul li {
+  margin: 3px 0;
+  width: 150px;
+  border-bottom: 1px solid rgb(92, 92, 92);
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  color: rgb(180, 180, 180);
+  display: block;
+  font-size: 12px;
+}
+
+.menu_bar .nav_1 ul li:hover .sub-nav ul li:hover {
+  color: #fff;
+}
+
+.menu_bar .nav_1 ul li:hover .sub-nav ul li:last-child {
+  margin-top: 0;
+  border-bottom: none;
+}
+
+.menu_bar .navigation {
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.sub_menu {
+  position: -webkit-sticky; /*
+  safari */
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  line-height: 30px;
+  margin-top: 4px;
+  z-index: 1;
+}
+
+.sub_menu i {
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  margin-bottom: 7px;
+}
+
+.container img {
+  margin-left: 300px;
+}
+
+.container .img_1 img {
+  width: 70%;
+  height: 467px;
+  margin: 0px 10px;
+}
+
+.container .img_1 .content_1 #down-part {
+  position: absolute;
+  left: 30px;
+  top: 67%;
+  color: #fff;
+}
+
+.container .img_1 .content_1 #down-part h3 {
+  font-size: 20px;
+}
+
+.container .img_1 .content_1 #down-part h2 {
+  font-weight: bold;
+  font-size: larger;
+  font-size: 3.5rem;
+}
+
+.container .img_1 .content_1 #down-part p {
+  display: inline;
+  font-size: 12px;
+}
+
+.container .img_1 .content_1 #top-part h5 {
+  position: absolute;
+  top: 100px;
+  left: 55%;
+  color: #fff;
+}
+
+.container .side_bars {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  top: 70px;
+  height: 485px;
+  width: 28%;
+}
+
+.container .side_bars .img_2 img {
+  height: 235px;
+  width: 370px;
+  margin: 3px 3px;
+}
+
+.container .side_bars .img_2 #content_2 {
+  position: absolute;
+  top: 24%;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.container .side_bars .img_2 #content_2 h2 {
+  font-weight: bold;
+  font-size: larger;
+  font-size: 30px;
+}
+
+.container .side_bars .img_2 #content_2 h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.container .side_bars .img_2 #content_2 p {
+  display: inline;
+  font-size: 12px;
+}
+
+.container .side_bars .img_3 img {
+  height: 235px;
+  width: 370px;
+  margin: 0 3px;
+}
+
+.container .side_bars .img_3 #content_3 {
+  position: absolute;
+  top: 60%;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.container .side_bars .img_3 #content_3 h2 {
+  font-weight: bold;
+  font-size: larger;
+  font-size: 30px;
+}
+
+.container .side_bars .img_3 #content_3 h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.container .side_bars .img_3 #content_3 p {
+  display: inline;
+  font-size: 12px;
+}
+
